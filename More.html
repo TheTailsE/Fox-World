@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="ICON" href="logo.jpg">
+    <link rel="stylesheet" href="Nav.css">
+    <style>
+        .thumbnail img 
+        {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover;
+        }
+
+        .jumbotron 
+        {
+            background-image: url(FW.jpg);
+            background-size: cover;
+            padding: 200px 0;
+            margin-bottom: 0;
+        }
+
+        #FT 
+        {
+        border: 3px solid #3333; 
+        }
+        #FT th,
+        #FT td 
+        {
+            border: 2px solid #3333; 
+        }
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top Nav_C">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                   
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="Logo" class="Nav_L"></a>
+                <a class="navbar-brand" href="index.html">Fox World</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html#LM">Introduction</a></li>
+                            <li><a href="index.html#WAF">What is a Fox?</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Species.html">Species</a></li>
+                    <li><a href="Habitat.html">Habitat</a></li>
+                    
+                    <li><a href="#CU" class="btn btn-warning">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="jumbotron">
+    <div class="container">
+        
+    </div>
+</div>
+
+<div class="container">
+    <ol class="breadcrumb">
+      <br><br>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Species.html">Species</a></li>
+        <li><a href="Habitat.html">Habitat</a></li>
+        <li class="active">More</li>
+    </ol>
+
+    <h1>Foxes Around the World</h1>
+    <div class="row">
+        <div class="col-md-12">
+        
+            <input type="text" id="SI" class="form-control" placeholder="Search......">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered" id="FT">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Habitat</th>
+                        <th>Size</th>
+                        <th>Weight</th>
+                        <th>Life Span</th>
+                        <th>Food</th>
+                        <th>Special Facts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 
+                    <tr>
+                        <td>Red Fox</td>
+                        <td>Worldwide</td>
+                        <td>Forests, grasslands, mountains</td>
+                        <td>Up to 20" tall, 30" long</td>
+                        <td>7 - 15 lbs</td>
+                        <td>Up to 14 years</td>
+                        <td>Small mammals, fruits, insects</td>
+                        <td>Can run up to 45 mph</td>
+                    </tr>
+                    <tr>
+                        <td>Arctic Fox</td>
+                        <td>Arctic regions</td>
+                        <td>Tundra</td>
+                        <td>Up to 15" tall, 30" long</td>
+                        <td>6 - 17 lbs</td>
+                        <td>Up to 3 years</td>
+                        <td>Small mammals, birds, fish</td>
+                        <td>Has the warmest fur of any mammal</td>
+                    </tr>
+                    <tr>
+                        <td>Fennec Fox</td>
+                        <td>Northern Africa</td>
+                        <td>Desert</td>
+                        <td>8" tall, 16" long</td>
+                        <td>2 - 3.5 lbs</td>
+                        <td>Up to 14 years (in captivity)</td>
+                        <td>Small mammals, insects, plants</td>
+                        <td>Large ears help dissipate heat</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Kit Fox</td>
+                        <td>North America</td>
+                        <td>Desert</td>
+                        <td>12 - 14" tall, 24 - 32" long</td>
+                        <td>4 - 6 lbs</td>
+                        <td>Up to 6 years</td>
+                        <td>Small mammals, insects, plants</td>
+                        <td>Lives in underground dens, good at hunting rodents</td>
+                    </tr>
+                    <tr>
+                        <td>Gray Fox</td>
+                        <td>North America</td>
+                        <td>Forests, mountains</td>
+                        <td>Up to 15" tall, 32" long</td>
+                        <td>6 - 15 lbs</td>
+                        <td>Up to 14 years</td>
+                        <td>Small mammals, birds, fruits</td>
+                        <td>Climbs trees, good at hunting in dense vegetation</td>
+                    </tr>
+                    <tr>
+                        <td>Bat-Eared Fox</td>
+                        <td>Africa</td>
+                        <td>Grasslands, savannas</td>
+                        <td>13 - 15" tall, 18 - 24" long</td>
+                        <td>4 - 11 lbs</td>
+                        <td>Up to 13 years</td>
+                        <td>Insects, small reptiles, plants</td>
+                        <td>Large ears for heat regulation, nests have multiple entrances</td>
+                    </tr>
+                    <tr>
+                        <td>Blanford's Fox</td>
+                        <td>Middle East</td>
+                        <td>Deserts, rocky areas</td>
+                        <td>12" tall, 18" long</td>
+                        <td>2 - 3 lbs</td>
+                        <td>Unknown</td>
+                        <td>Insects, small mammals, fruits</td>
+                        <td>Primarily nocturnal, good climbers</td>
+                    </tr>
+                    <tr>
+                        <td>Bengal Fox</td>
+                        <td>Indian Subcontinent</td>
+                        <td>Scrub, grasslands</td>
+                        <td>15 - 16" tall, 20 - 30" long</td>
+                        <td>7 - 9 lbs</td>
+                        <td>Up to 6 years</td>
+                        <td>Insects, small mammals, fruits</td>
+                        <td>Known to cache extra food for later use</td>
+                    </tr>
+                    <tr>
+                        <td>Corsac Fox</td>
+                        <td>Central Asia</td>
+                        <td>Steppes, semi-deserts</td>
+                        <td>11 - 12" tall, 19 - 25" long</td>
+                        <td>4.4 - 7.7 lbs</td>
+                        <td>Up to 8 years</td>
+                        <td>Small mammals, birds, insects</td>
+                        <td>Extremely swift, can reach 50 mph when running</td>
+                    </tr>
+                    <tr>
+                        <td>Pale Fox</td>
+                        <td>Sahara Desert</td>
+                        <td>Desert</td>
+                        <td>12" tall, 16 - 24" long</td>
+                        <td>3.3 - 6 lbs</td>
+                        <td>Up to 10 years</td>
+                        <td>Small mammals, insects, fruits</td>
+                        <td>Well-adapted to hot desert climates, nocturnal</td>
+                    </tr>
+                    <tr>
+                        <td>Tibetan Sand Fox</td>
+                        <td>Tibet, Nepal</td>
+                        <td>Alpine regions</td>
+                        <td>10 - 12" tall, 24 - 28" long</td>
+                        <td>4.4 - 10 lbs</td>
+                        <td>Unknown</td>
+                        <td>Small mammals, birds, insects</td>
+                        <td>Unique appearance with square-shaped face</td>
+                    </tr>
+                    <tr>
+                        <td>Swift Fox</td>
+                        <td>North America</td>
+                        <td>Grasslands, prairies</td>
+                        <td>12 - 14" tall, 31 - 34" long</td>
+                        <td>5 - 7 lbs</td>
+                        <td>Up to 7 years</td>
+                        <td>Small mammals, birds, insects</td>
+                        <td>Swift runner, can reach speeds up to 30 mph</td>
+                    </tr>
+                    <tr>
+                        <td>Cape Fox</td>
+                        <td>Southern Africa</td>
+                        <td>Grasslands, semi-desert</td>
+                        <td>10 - 12" tall, 27 - 33" long</td>
+                        <td>6 - 11 lbs</td>
+                        <td>Up to 10 years</td>
+                        <td>Small mammals, birds, fruits</td>
+                        <td>Excellent at climbing, solitary lifestyle</td>
+                    </tr>
+                    <tr>
+                        <td>Ruppell's Fox</td>
+                        <td>North Africa</td>
+                        <td>Desert, rocky areas</td>
+                        <td>13 - 15" tall, 24 - 36" long</td>
+                        <td>5.5 - 12 lbs</td>
+                        <td>Up to 3 years</td>
+                        <td>Small mammals, insects, plants</td>
+                        <td>Well-adapted to arid climates, digs dens in sand</td>
+                    </tr>
+                    <tr>
+                        <td>Blandford's Fox</td>
+                        <td>Middle East</td>
+                        <td>Deserts, rocky areas</td>
+                        <td>12" tall, 18" long</td>
+                        <td>2 - 3 lbs</td>
+                        <td>Unknown</td>
+                        <td>Insects, small mammals, fruits</td>
+                        <td>Primarily nocturnal, good climbers</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Marble Fox</td>
+                        <td>North America</td>
+                        <td>Forests, grasslands</td>
+                        <td>Up to 20" tall, 30" long</td>
+                        <td>6 - 24 lbs</td>
+                        <td>Up to 14 years</td>
+                        <td>Small mammals, birds, berries</td>
+                        <td>Distinctive coloration with white and brown fur</td>
+                    </tr>
+                    <tr>
+                        <td>Hoary Fox</td>
+                        <td>South America</td>
+                        <td>Woodlands, savannas</td>
+                        <td>15 - 19" tall, 30 - 40" long</td>
+                        <td>9 - 15 lbs</td>
+                        <td>Up to 10 years</td>
+                        <td>Small mammals, fruits, insects</td>
+                        <td>Unique silver-gray fur coloration</td>
+                    </tr>
+                    <tr>
+                        <td>Pampas Fox</td>
+                        <td>South America</td>
+                        <td>Grasslands, savannas</td>
+                        <td>15 - 17" tall, 33 - 40" long</td>
+                        <td>8.8 - 15 lbs</td>
+                        <td>Up to 9 years</td>
+                        <td>Small mammals, birds, fruits</td>
+                        <td>Adaptable to various habitats, including farmlands</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+
+        $('#SI').keyup(function()
+        {
+            let ST = $(this).val().toLowerCase();
+            $('#FT tbody tr').each(function()
+            {
+                let TR = $(this).text().toLowerCase();
+                if(TR.includes(ST)
+                ){
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+    });
+</script>
+
+<br><br>
+<footer class="footer" id="CU">
+    <div class="container rounded-top">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h4>Information</h4>
+                <ul class="footer-links">
+                    <li><a href="Species.html">Animals</a></li>
+                    <li><a href="Habitat.html">Habitat</a></li>
+                    <li><a href="Feeding.html">Feeding</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Contact Us</h4>
+                <p><strong>Email:</strong> info@FoxWorld.co</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Follow Us</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">&copy; 2024 FoxesWorlds. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

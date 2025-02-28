@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Species</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Nav.css">
+    <style>
+      .carousel-caption 
+      {
+          background-color: goldenrod;
+          left: auto;
+          right: 0;
+          width: 27%;
+          height: 100px;
+          color: black;
+          padding: 0px;
+      }
+        .thumbnail img 
+        {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover;
+        }
+        
+        .carousel-inner img 
+        {
+        width: 100%;
+        height: auto;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top Nav_C">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="Logo" class="Nav_L"></a>
+            <a class="navbar-brand" href="index.html">Fox World</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html#LM">Introduction</a></li>
+                        <li><a href="index.html#WAF">What is a Fox?</a></li>
+                    </ul>
+                </li>
+                <li><a href="Species.html">Species</a></li>
+                <li><a href="Habitat.html">Habitat</a></li>
+                <li></li>
+                
+                <li><a href="#CU" class="btn btn-warning">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+      <ol class="breadcrumb">
+        <br><br>
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Species</li>
+      </ol>
+  
+    <div id="AC" class="carousel slide" data-ride="carousel">
+  
+        <ol class="carousel-indicators">
+            <li data-target="#AC" data-slide-to="0" class="active"></li>
+            <li data-target="#AC" data-slide-to="1"></li>
+            <li data-target="#AC" data-slide-to="2"></li>
+        </ol>
+
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="red fox1.jpg" alt="Slide 1" style=" height: 400px;">
+                <div class="carousel-caption">
+                    <h2>Red Fox</h2>
+                    <p class="1">Diverse Fox</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="fennec fox.jpg" alt="Slide 2" style="height: 400px;">
+                <div class="carousel-caption">
+                    <h3>Fennec Fox</h3>
+                    <p>Desert Fox</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="artic fox.jpg" alt="Slide 3" style=" height: 400px;">
+                <div class="carousel-caption">
+                    <h3>Arctic Fox</h3>
+                    <p>Winter Fox</p>
+                </div>
+            </div>
+        </div>
+
+  
+        <a class="left carousel-control" href="#AC" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#AC" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br>
+    <div id="WAF" class="container ABS well">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#ABS"><img class="Img img-responsive" src="funfact.jpg" alt="About Us Image"></a>
+            </div>
+            <div class="col-md-8">
+                <h2 class="AT">Fun Facts</h2>
+                <p class="ACT">Did you know there are over 30 species of foxes? Foxes can be found in almost every region in the world and the red fox is one of the most widely dispersed animals on the planet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <h2 class="AT">Species</h2>
+    <div class="container">
+      <input class="form-control glyphicon glyphicon-search" id="SF" type="text" placeholder="Search .. ">
+      
+      <br>
+      <div id="all">
+     
+     
+
+
+    <ul class="nav nav-tabs" id="AT">
+        <li class="active"><a href="#all" data-toggle="tab" data-filter="all">All</a></li>
+        <li><a href="#TF" data-toggle="tab" data-filter="TF">True Foxes</a></li>
+        <li><a href="#NT" data-toggle="tab" data-filter="NT">Non-True</a></li>
+    </ul>
+
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="all">
+            <div class="row" id="animalList">
+              
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="redfox1.jpg" alt="Fox1">
+                        <div class="caption">
+                            <h3>Red Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="articfox.webp" alt="Fox2">
+                        <div class="caption">
+                            <h3>Arctic Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="fennecfox.webp" alt="Fox3">
+                        <div class="caption">
+                            <h3>Fennec Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="bengalfox.jpg" alt="Fox4">
+                        <div class="caption">
+                            <h3>Bengal Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="palefox.jpg" alt="Fox5">
+                        <div class="caption">
+                            <h3>Pale Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="Blandford's_fox_.jpg" alt="Fox6">
+                        <div class="caption">
+                            <h3>Blandford Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="capefox.jpg" alt="Fox7">
+                        <div class="caption">
+                            <h3>Cape Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="Corsac fox.jpg" alt="Fox8">
+                        <div class="caption">
+                            <h3>Corsac fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="Rüppell's_fox.jpg" alt="Fox9">
+                        <div class="caption">
+                            <h3>Rüppell’s Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="kitfox.jpg" alt="Fox10">
+                        <div class="caption">
+                            <h3>Kit fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="Tibetan sand fox.jpg" alt="Fox11">
+                        <div class="caption">
+                            <h3>Tibetan sand fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI TF">
+                    <div class="thumbnail">
+                        <img src="Swift fox.jpg" alt="Fox12">
+                        <div class="caption">
+                            <h3>Swift fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="gray-fox.jpg" alt="Fox1">
+                        <div class="caption">
+                            <h3>Gray Fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="Bat-eared fox.jpg" alt="Fox2">
+                        <div class="caption">
+                            <h3>Bat-eared fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="Crab-eating fox.jpg" alt="Fox3">
+                        <div class="caption">
+                            <h3>Crab-eating fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="Island fox.jpg" alt="Fox4">
+                        <div class="caption">
+                            <h3>Island fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="Hoary fox.JPG" alt="Fox5">
+                        <div class="caption">
+                            <h3>Hoary fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 AI NT">
+                    <div class="thumbnail">
+                        <img src="Darwin’s fox.jpg" alt="Fox6">
+                        <div class="caption">
+                            <h3>Darwin’s fox</h3>
+                            <a href="More.html" class="btn btn-warning btn-md">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<br><br>
+<footer class="footer" id="CU">
+  <div class="container rounded-top">
+      <div class="row">
+         
+          <div class="col-md-3">
+              <h4>Information</h4>
+              <ul class="footer-links">
+                  <li><a href="Species.html">Animals</a></li>
+                  <li><a href="Habitat.html">Habitat</a></li>
+                  <li><a href="Feeding.html">Feeding</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h4>Contact Us</h4>
+              <p><strong>Email:</strong> info@FoxWorld.co</p>
+          </div>
+          <div class="col-md-3">
+              <h4>Follow Us</h4>
+              <ul class="footer-links">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="">YouTube</a></li>
+              </ul>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-center">&copy; 2024 FoxesWorlds. All Rights Reserved.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<script>
+  $(document).ready(function()
+  {
+      $('#AT a').click(function(e) 
+      {
+          e.preventDefault();
+          $(this).tab('show');
+          let filter = $(this).data('filter');
+          filterAnimals(filter);
+      });
+
+    
+      $('#SF').on('input', function() 
+      {
+          let Search = $(this).val().toLowerCase();
+          Filter(Search);
+      });
+
+      function filterAnimals(filter) 
+      {
+          $('.AI').fadeOut(0);
+          if (filter === 'all') 
+          {
+              $('.AI').fadeIn();
+          } else 
+          {
+              $('.' + filter).fadeIn();
+          }
+      }
+
+      function Filter(query) {
+          $('.AI').each(function() 
+          {
+              let AN = $(this).find('h3').text().toLowerCase();
+              if (AN.includes(query)) 
+              {
+                  $(this).fadeIn();
+              } else {
+                  $(this).fadeOut();
+              }
+          });
+      }
+  });
+</script>
+
+
+
+</body>
+</html>
